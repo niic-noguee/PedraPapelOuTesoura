@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, Papel ou Tesoura?</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <h1>Vamos brincar de pedra, Papel ou Tesoura?</h1>
+
+    <h4>Jogador I, escolha uma opção:</h4>
+
+    <button onclick="escolherOpcao(0)">Pedra 🪨</button>
+    <button onclick="escolherOpcao(1)">Papel 📜</button>
+    <button onclick="escolherOpcao(2)">Tesoura ✂️</button>
+
+    <h4>Jogador 2 escolheu: <span id="escolhaComputador"></span></h4>
+
+    <h3>Resultado: <span id="resultado"></span></h3>
+    
+    <h3>Pontuação: Jogador I (<span id="pontuacaoJogador">0</span>) vs. Jogador II (<span id="pontuacaoComputador">0</span>)</h3>
+
+    <h3>Empates: <span id="pontuacaoEmpate">0</span></h3>
+
+</body>
+</html>
